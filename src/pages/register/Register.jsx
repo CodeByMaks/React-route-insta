@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '@shared/instagram-clipart-full-hd.png'
+import logo from '@shared/th-1654884666-fotor-bg-remover-20250316203431.png'
 import { useNavigate } from 'react-router'
 
 const RegisterPage = () => {
@@ -9,7 +9,7 @@ const RegisterPage = () => {
 	 <div className='container__box'>
      <div>
             <div className='form_login'>
-              <img style={{width: '50px'}} src={logo} alt="" />
+              <img style={{width: '90px'}} src={logo} alt="" />
               <div className='box__items'>
                 <input type="text" name="" id="" placeholder='Username' />
               </div>

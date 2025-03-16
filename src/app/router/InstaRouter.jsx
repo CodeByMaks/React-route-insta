@@ -7,7 +7,7 @@ import { BrowserRouter, Route, Routes } from 'react-router'
 
 const HomePage = lazy(() => import('@pages/home/Home'))
 const PostsPage = lazy(()=> import('@pages/posts/Posts'))
-const CreatePage = lazy(()=> import('@pages/create/Create'))
+const ReelsPage = lazy(()=> import('@pages/reels/Reels'))
 const NotificationsPage = lazy(()=> import('@pages/notifications/Notifications'))
 const ProfilePage = lazy(()=> import('@pages/Profile/Profile'))
 const SettingsPage = lazy(()=> import('@pages/settings/Settings'))
@@ -31,9 +31,9 @@ const InstaRouter = () => {
 							<PostsPage />
 						</Suspense>
 						} />
-					<Route path='create' element={
-						<Suspense fallback={<div className='loading'>Загрузка Create...</div>}>
-							<CreatePage />
+					<Route path='reels' element={
+						<Suspense fallback={<div className='loading'>Загрузка Reels...</div>}>
+							<ReelsPage />
 						</Suspense>
 						} />
 					<Route path='notifications' element={
