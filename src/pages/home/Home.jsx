@@ -154,42 +154,60 @@ const HomePage = () => {
            <div className='subscribe_recom'>
             <div className='box__subscribe'>
                <div className='item__round__subs'></div>
-                 <p>Hack_theBox</p>
+                <div>
+                  <p>Hack_theBox</p>
+                  <p style={{color: 'gray', fontSize: '14px'}}>Darknet</p>
+                </div>
                </div>
                 <p style={{color: 'blue', fontWeight: 'bold'}}>Subscribe</p>
             </div>
            <div className='subscribe_recom'>
             <div className='box__subscribe'>
                <div className='item__round__subs'></div>
-                 <p>Ivon_Sherer</p>
+                <div>
+                  <p>Ivon_Sherer</p>
+                  <p style={{color: 'gray', fontSize: '14px'}}>My Love</p>
+                </div>
                </div>
                 <p style={{color: 'blue', fontWeight: 'bold'}}>Subscribe</p>
             </div>
            <div className='subscribe_recom'>
             <div className='box__subscribe'>
                <div className='item__round__subs'></div>
-                 <p>Duskwood</p>
+                <div>
+                  <p>Duskwood</p>
+                  <p style={{color: 'gray', fontSize: '14px'}}>Moonvale</p>
+                </div>
                </div>
                 <p style={{color: 'blue', fontWeight: 'bold'}}>Subscribe</p>
             </div>
            <div className='subscribe_recom'>
             <div className='box__subscribe'>
                <div className='item__round__subs'></div>
-                 <p>Kuplinov_play</p>
+                <div>
+                  <p>Kuplinov_play</p>
+                  <p style={{color: 'gray', fontSize: '14px'}}>Dmitriy Kuplinov</p>
+                </div>
                </div>
                 <p style={{color: 'blue', fontWeight: 'bold'}}>Subscribe</p>
             </div>
            <div className='subscribe_recom'>
             <div className='box__subscribe'>
                <div className='item__round__subs'></div>
-                 <p>narvent</p>
+                <div>
+                  <p>narvent</p>
+                  <p style={{color: 'gray', fontSize: '14px'}}>song playing</p>
+                </div>
                </div>
                 <p style={{color: 'blue', fontWeight: 'bold'}}>Subscribe</p>
             </div>
            <div className='subscribe_recom'>
             <div className='box__subscribe'>
                <div className='item__round__subs'></div>
-                 <p>BoywithUke</p>
+                <div>
+                  <p>BoywithUke</p>
+                  <p style={{color: 'gray', fontSize: '14px'}}>trauma</p>
+                </div>
                </div>
                 <p style={{color: 'blue', fontWeight: 'bold'}}>Subscribe</p>
             </div>
